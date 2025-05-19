@@ -1,0 +1,66 @@
+/* style.css */
+
+/* Body styles (element selector) */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Main title (ID selector) */
+#main-title {
+    font-family: 'Roboto', sans-serif;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Highlighted text (class selector) */
+.highlight {
+    background-color: #fff3cd;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* Image styling */
+article img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #3498db;
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Content section styling */
+.content-section {
+    background-color: white;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 800px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Button styling */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
